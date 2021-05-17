@@ -7,6 +7,11 @@
       $(".notify-dropdown").toggle();
     });
 
+    /*------------------------
+            Page Loader
+    --------------------------*/
+    jQuery("#gen-loading").delay(2000).fadeOut("slow");
+
 
     // HAMBURGER MENU
     $('.hamburger-menu').on('click', function (e) {
