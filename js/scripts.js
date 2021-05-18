@@ -10,7 +10,7 @@
     /*------------------------
             Page Loader
     --------------------------*/
-    jQuery("#gen-loading").delay(2000).fadeOut("slow");
+    jQuery("#gen-loading").delay(700).fadeOut("slow");
 
 
     // HAMBURGER MENU
