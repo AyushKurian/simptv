@@ -177,6 +177,33 @@
   font-weight: 700;
 }
 
+/* Layout */
+@media screen and (max-width:991px)
+{    div.section.wf-section
+    {    vertical-align:top;
+        display:block;
+    }
+    div.columns.w-row
+    {    display:table;
+    }
+    div.w-col.w-col-6
+    {    width:100%; height:auto;
+        display:inline-block;
+    }
+}
+
+/* Font Sizes */
+@media screen and (max-width:675px)
+{    .number-block,.video-name
+    {    font-size:25pt;
+        line-height:normal;
+    }
+    .description-box
+    {    font-size:30pt;
+        line-height:normal;
+    }
+}
+
 .created-by-container {
   position: fixed;
   left: auto;
