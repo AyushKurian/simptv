@@ -195,11 +195,11 @@
 /* Font Sizes */
 @media screen and (max-width:675px)
 {    .number-block,.video-name
-    {    font-size:25pt;
+    {    font-size:15pt;
         line-height:normal;
     }
     .description-box
-    {    font-size:30pt;
+    {    font-size:13pt;
         line-height:normal;
     }
 }
